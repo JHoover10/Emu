@@ -9,7 +9,7 @@
   <Identity
     Name="95d89494-43a9-4ef4-ba30-7937d8b3e8ce"
     Publisher="CN=Jeffrey Hoover"
-    Version="1.0.1.0" />
+    Version="1.0.2.0" />
 
   <Properties>
     <DisplayName>Emu.Package</DisplayName>

@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
+	<PublishSingleFile>true</PublishSingleFile>
+	<SelfContained>true</SelfContained>
     <ImplicitUsings>enable</ImplicitUsings>
-	<RuntimeIdentifiers>win10-x86;win10-x64;</RuntimeIdentifiers>
-	<PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
