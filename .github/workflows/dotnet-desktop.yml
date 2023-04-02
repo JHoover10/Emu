@@ -57,8 +57,8 @@ jobs:
 
     env:
       Solution_Name: Emu.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
-      Wap_Project_Directory: Emu    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: Emu\Emu.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Wap_Project_Directory: Emu.Package    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Path: Emu.Package\Emu.Package.wapproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
@@ -107,4 +107,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: MSIX Package
-        path: ${{ env.Wap_Project_Directory }}\bin\Release\net6.0-windows
+        path: ${{ env.Wap_Project_Directory }}\AppPackages
