@@ -50,6 +50,7 @@ jobs:
 
     strategy:
       matrix:
+        targetPlatform: [x86, x64]
         configuration: [Release]
 
     runs-on: windows-latest  # For a list of available runner types, refer to
