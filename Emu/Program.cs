@@ -17,7 +17,7 @@ internal static class Program
         ApplicationConfiguration.Initialize();
 
         var host = CreateHostBuilder().Build();
-        ServiceProvider = host.Services; 
+        ServiceProvider = host.Services;
 
         Application.Run(ServiceProvider.GetRequiredService<Emu>());
     }
